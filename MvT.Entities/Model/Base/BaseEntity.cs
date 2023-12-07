@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MvT.Entities.Model.Base
 {
-    public abstract class BaseEntity : IEntity
+    public abstract class DbBaseEntity : IDbEntity
     {
-        public BaseEntity()
+        public DbBaseEntity()
         {
             CratedDate = DateTime.Now;
             DateStatus = DataStatus.Inserted;

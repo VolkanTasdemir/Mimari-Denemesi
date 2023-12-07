@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MvT.Entities.Interface
 {
-    public interface IEntity
+    public interface IDbEntity
     {
         public int Id { get; set; }
         public DateTime CratedDate { get; set; }
