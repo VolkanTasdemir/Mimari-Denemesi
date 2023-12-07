@@ -11,6 +11,6 @@ namespace MvT.Entities.Interface
         public int Id { get; set; }
         public DateTime CratedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
-        public MvT.Dal.System.DataStatus DateStatus { get; set; }
+        public DataStatus DateStatus { get; set; }
     }
 }

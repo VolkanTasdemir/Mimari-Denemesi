@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvT.Entities.Model.Stok
 {
-    public class Category : BaseEntity
+    public class Category : DbBaseEntity
     {
         public long?  MainCategoryID { get; set; }
         public string CategoryName { get; set; }
