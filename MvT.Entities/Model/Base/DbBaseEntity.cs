@@ -1,4 +1,4 @@
-﻿using MvT.Dal.System;
+﻿using MvT.Entities.Enums;
 using MvT.Entities.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,11 +13,11 @@ namespace MvT.Entities.Model.Base
         public DbBaseEntity()
         {
             CratedDate = DateTime.Now;
-            DateStatus = DataStatus.Inserted;
+            DateStatus = (short)DataStatus.Inserted;
         }
         public int Id { get; set; }
         public DateTime CratedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
-        public DataStatus DateStatus { get; set; }
+        public short DateStatus { get; set; }
     }
 }

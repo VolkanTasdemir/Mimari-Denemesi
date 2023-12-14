@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvT.Dal.Abstract.Stok
+namespace MvT.Dal.Entities
 {
-    public interface ICategoryDal
+    public class Login
     {
+        public string ConnStr { get; set; }
     }
 }

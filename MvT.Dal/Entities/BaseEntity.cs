@@ -5,10 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvT.Entities.Interface
+namespace MvT.Dal.Entities
 {
-    public interface IDbEntity
+    public class BaseEntity
     {
+        public BaseEntity()
+        {
+            CratedDate = DateTime.Now;
+            DateStatus = (short)DataStatus.Inserted;
+        }
         public int Id { get; set; }
         public DateTime CratedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }

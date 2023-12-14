@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1.System
+namespace MvT.Entities.Enums
 {
     public enum DataStatus
     {
