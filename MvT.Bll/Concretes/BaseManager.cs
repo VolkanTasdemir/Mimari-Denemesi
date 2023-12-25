@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvT.Dal.Repositories.Concretes
 {
-    public class BaseManager<T> : IManager<T> where T : class, IDbEntity
+    public class BaseManager<T> : IManager<T> where T : class
     {
         public Task Insert(T rec)
         {

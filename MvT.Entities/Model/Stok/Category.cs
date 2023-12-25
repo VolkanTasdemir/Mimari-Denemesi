@@ -11,9 +11,9 @@ namespace MvT.Entities.Model.Stok
     public class Category : DbBaseEntity
     {
         public long?  MainCategoryID { get; set; }
-        public string CategoryName { get; set; }
-        public string CategoryDesciription { get; set; }
-        public string CategoryJson { get; set; }
+        //public string CategoryName { get; set; }
+        //public string CategoryDesciription { get; set; }
+        //public string CategoryJson { get; set; }
         public bool   CategoryActive { get; set; }
     }
 }

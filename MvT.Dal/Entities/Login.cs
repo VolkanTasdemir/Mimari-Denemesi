@@ -8,6 +8,6 @@ namespace MvT.Dal.Entities
 {
     public class Login
     {
-        public string ConnStr { get; set; }
+        public string ConnStr { get; set; } = "server = localhost; user=root;database=mvtstoktakip;password=123+asd";
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvT.Dal.Repositories.Abstract
 {
-    internal interface IManager<T> where T : class, IDbEntity
+    internal interface IManager<T> where T : class
     {
         Task Insert(T rec);
         Task InsertRange(List<T> recList);

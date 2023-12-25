@@ -9,7 +9,7 @@ namespace MvT.Entities.Interface
 {
     public interface IDbEntity
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public DateTime CratedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public short DateStatus { get; set; }
