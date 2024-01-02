@@ -1,5 +1,5 @@
 ﻿using MvT.Dal.Entities.Stok;
-using MvT.Dal.Repositories.Abstract;
+using MvT.Dal.Repositories.Abstract.Main;
 using MvT.Entities.Model.Stok;
 using System;
 using System.Collections.Generic;
