@@ -1,4 +1,4 @@
-﻿using MvT.Dal.Repositories.Abstract.Main;
+﻿using MvT.Dal.Repositories.Abstract;
 using MvT.Entities.Model.Main;
 using System;
 using System.Collections.Generic;

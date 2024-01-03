@@ -1,8 +1,10 @@
+using MvT.Bll.DependencyResolvers;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var mvcBuilder= builder.Services.AddControllersWithViews();
-if(builder.Environment.IsDevelopment())
+builder.Services.AddRepositoryManagerServices();
+var mvcBuilder = builder.Services.AddControllersWithViews();
+if (builder.Environment.IsDevelopment())
     mvcBuilder.AddRazorRuntimeCompilation();
 
 var app = builder.Build();

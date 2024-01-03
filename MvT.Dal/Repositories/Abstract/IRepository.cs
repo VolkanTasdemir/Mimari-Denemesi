@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvT.Dal.Repositories.Abstract.Main
+namespace MvT.Dal.Repositories.Abstract
 {
     public interface IRepository<T> where T : class, IDbEntity
     {

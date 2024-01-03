@@ -1,6 +1,6 @@
 ﻿using MvT.Dal.DatabaseManager.MySqlDataBaseManger;
 using MvT.Dal.Entities;
-using MvT.Dal.Repositories.Abstract.Main;
+using MvT.Dal.Repositories.Abstract;
 using MvT.Entities.Interface;
 using MySql.Data.MySqlClient;
 using System.Data;

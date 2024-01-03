@@ -6,7 +6,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvT.Bll.Abstract.Main
+namespace MvT.Bll.Abstract
 {
     public interface IManager<T> where T : class, IDbEntity
     {

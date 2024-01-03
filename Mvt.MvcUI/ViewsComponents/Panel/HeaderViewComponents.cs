@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MvT.Bll.Concretes.Stok;
 
 namespace Mvt.MvcUI.ViewsComponents.Panel
 {
     public class HeaderViewComponents : ViewComponent
     {
+        CategoryManager categoryManager;
         public IViewComponentResult Invoke()
         {
-            return View();
+            var deger = categoryManager.GetAll();
+            return View(deger);
         }
     }
 }

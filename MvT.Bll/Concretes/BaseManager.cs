@@ -1,6 +1,6 @@
-﻿using MvT.Bll.Abstract.Main;
+﻿using MvT.Bll.Abstract;
 using MvT.Bll.System;
-using MvT.Dal.Repositories.Abstract.Main;
+using MvT.Dal.Repositories.Abstract;
 using MvT.Entities.Interface;
 using Org.BouncyCastle.Ocsp;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MvT.Bll.Concretes.Main
+namespace MvT.Bll.Concretes
 {
     public class BaseManager<T> : IManager<T> where T : class, IDbEntity
     {

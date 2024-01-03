@@ -1,4 +1,4 @@
-﻿using MvT.Bll.Abstract.Main;
+﻿using MvT.Bll.Abstract;
 using MvT.Entities.Model.Main;
 
 namespace MvT.Dal.Repositories.Abstract.Stok

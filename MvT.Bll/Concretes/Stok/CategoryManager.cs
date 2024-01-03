@@ -1,5 +1,4 @@
-﻿using MvT.Bll.Concretes.Main;
-using MvT.Dal.Repositories.Abstract.Main;
+﻿using MvT.Dal.Repositories.Abstract;
 using MvT.Entities.Model.Stok;
 using System;
 using System.Collections.Generic;
